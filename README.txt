@@ -6,7 +6,9 @@ planning on adding the ability to post data to the site, but that is a bit more
 complicated to do. For now though, this will help you grab data from the site,
 until an official api is created.
 
-Without further adieu heres the limited documentation!
+Without further adieu here's the limited documentation!
+  Note: After these basic functions, all new things will be documented in
+        comments in the actual code.
 
 
 getAllTopics()
@@ -46,7 +48,7 @@ getTopicFeed(topic, pageNumber)
     import emuapi
 
     print(emuapi.getTopicFeed('Technology', 1)[0]['title'])
-    
+
     Out: Welcome to Empeopled
 
 getFeedKeys()
